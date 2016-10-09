@@ -72,24 +72,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\HoloToolkit-Examples\ColorPicker\GazeableColorPicker.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\GazeRuler\Scripts\CWGestureManager.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\GazeRuler\Scripts\DeleteLine.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\GazeRuler\Scripts\IGeometry.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\GazeRuler\Scripts\IPolygonClosable.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\GazeRuler\Scripts\LineManager.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\GazeRuler\Scripts\MeasureManager.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\GazeRuler\Scripts\ModeTip.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\GazeRuler\Scripts\PolygonManager.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\GazeRuler\Scripts\Test\LineTest.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\SpatialMappingComponent\DropCube.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\SpatialUnderstanding\SpatialUnderstanding-FeatureOverview\Scripts\AppState.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\SpatialUnderstanding\SpatialUnderstanding-FeatureOverview\Scripts\Cursor.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\SpatialUnderstanding\SpatialUnderstanding-FeatureOverview\Scripts\LevelSolver.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\SpatialUnderstanding\SpatialUnderstanding-FeatureOverview\Scripts\LineDrawer.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\SpatialUnderstanding\SpatialUnderstanding-FeatureOverview\Scripts\ShapeDefinition.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\SpatialUnderstanding\SpatialUnderstanding-FeatureOverview\Scripts\SpaceVisualizer.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\SpatialUnderstanding\SpatialUnderstanding-FeatureOverview\Scripts\UI.cs" />
     <Compile Include="Assets\HoloToolkit\CrossPlatform\Scripts\MetroHandleRef.cs" />
     <Compile Include="Assets\HoloToolkit\CrossPlatform\Scripts\Reflection\ReflectionExtensions.cs" />
     <Compile Include="Assets\HoloToolkit\CrossPlatform\Scripts\Reflection\TypeUtils.cs" />
