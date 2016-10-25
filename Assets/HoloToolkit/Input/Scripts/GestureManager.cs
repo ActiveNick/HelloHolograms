@@ -169,6 +169,7 @@ namespace HoloToolkit.Unity
 
         private void OnTap()
         {
+            // TO DO: Need to fix this since it causes issues with the Tap to Place feature on the cube
             //if (FocusedObject != null)
             //{
             //    FocusedObject.SendMessage("OnSelect", SendMessageOptions.DontRequireReceiver);
