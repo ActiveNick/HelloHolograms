@@ -13,25 +13,25 @@ public class SpeechManager : MonoBehaviour
     {
         keywords.Add("Pickup Mode", () =>
         {
-            // Call the OnReset method on every descendant object.
+            // Broadcasts the message to switch to Pickup mode
             this.BroadcastMessage("OnPickup");
         });
 
         keywords.Add("Shooting Mode", () =>
         {
-            // TO DO: Let the player move the board to another location
+            // Broadcasts the message to switch to Shooting mode
             this.BroadcastMessage("OnShoot");
         });
 
         keywords.Add("Display Mesh", () =>
         {
-            // Call the OnDisplayMesh method on every descendant object.
+            // Tells the SpatialMapping descendant object to display the mesh
             this.BroadcastMessage("OnDisplayMesh");
         });
 
         keywords.Add("Hide Mesh", () =>
         {
-            // Call the OnHideMesh method on every descendant object.
+            // Tells the SpatialMapping descendant object to turn off the mesh
             this.BroadcastMessage("OnHideMesh");
         });
 
