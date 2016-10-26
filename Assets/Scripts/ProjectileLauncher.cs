@@ -32,9 +32,9 @@ public class ProjectileLauncher : MonoBehaviour
     }
 
     /// <summary>
-    /// OnSelect is sent by gesture manager.
+    /// OnFire is sent by gesture manager.
     /// </summary>
-    void OnSelect()
+    void OnFire()
     {
         if ((Time.realtimeSinceStartup - LastShotTime) > (1 / shotsPerSec))
         {

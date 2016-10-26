@@ -287,5 +287,21 @@ namespace HoloToolkit.Unity
                 }
             }
         }
+
+        /// <summary>
+        /// OnDisplayMesh is sent by the speech manager.
+        /// </summary>
+        void OnDisplayMesh()
+        {
+            drawVisualMeshes = true;
+        }
+
+        /// <summary>
+        /// OnHideMesh is sent by the speech manager.
+        /// </summary>
+        void OnHideMesh()
+        {
+            drawVisualMeshes = false;
+        }
     }
 }

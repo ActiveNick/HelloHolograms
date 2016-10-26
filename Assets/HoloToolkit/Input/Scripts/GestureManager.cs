@@ -21,6 +21,9 @@ namespace HoloToolkit.Unity
     [RequireComponent(typeof(GazeManager))]
     public partial class GestureManager : Singleton<GestureManager>
     {
+        private bool isPickupMode = false;
+        private bool isShootingMode = true;
+
         /// <summary>
         /// Occurs when a manipulation gesture has started
         /// </summary>
@@ -170,13 +173,13 @@ namespace HoloToolkit.Unity
         private void OnTap()
         {
             // TO DO: Need to fix this since it causes issues with the Tap to Place feature on the cube
-            //if (FocusedObject != null)
-            //{
-            //    FocusedObject.SendMessage("OnSelect", SendMessageOptions.DontRequireReceiver);
-            //} else
-            //{
-                this.SendMessage("OnSelect", SendMessageOptions.DontRequireReceiver);
-            //}
+            if (isPickupMode && (FocusedObject != null))
+            {
+                FocusedObject.SendMessage("OnSelect", SendMessageOptions.DontRequireReceiver);
+            } else if (isShootingMode)
+            {
+                this.SendMessage("OnFire", SendMessageOptions.DontRequireReceiver);
+            }
         }
 
         private void OnRecognitionStarted()
@@ -301,6 +304,24 @@ namespace HoloToolkit.Unity
             InteractionManager.SourceReleased -= InteractionManager_SourceReleased;
             InteractionManager.SourceUpdated -= InteractionManager_SourceUpdated;
             InteractionManager.SourceLost -= InteractionManager_SourceLost;
+        }
+
+        /// <summary>
+        /// OnPickup is sent by the speech manager.
+        /// </summary>
+        void OnPickup()
+        {
+            isPickupMode = true;
+            isShootingMode = false;
+        }
+
+        /// <summary>
+        /// OnFire is sent by the speech manager.
+        /// </summary>
+        void OnShoot()
+        {
+            isPickupMode = false;
+            isShootingMode = true;
         }
     }
 }
