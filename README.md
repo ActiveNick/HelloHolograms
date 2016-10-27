@@ -14,6 +14,8 @@ The latest version was built in Unity 5.5.0b6 (Preview).
 * This sample uses Unity's high performance physics by enabling Continuous Dynamic Collision Detection on the sphere prefab's Rigidbody to prevent issues where the sphere would fall through the floor's spatial mesh.
 * I had a bug where the microphone capability was not set in package.appxmanifest in Visual Studio even though it was set in Unity, so I had to set it manually in the generated UWP project. I'm not sure if this is some bad setting in my project or a bug in the Unity Preview. You should nonetheless double-check this in your own generated UWP project before building & deploying.
 
+![Screenshot](Screenshots/20161026_215751_HoloLens.jpg)
+
 ## Follow Me
 * Twitter: [@ActiveNick](http://twitter.com/ActiveNick)
 * Blog: [AgeofMobility.com](http://AgeofMobility.com)
