@@ -1,5 +1,5 @@
 # HelloHolograms
-A variation of the [Holograms 100 tutorial](https://developer.microsoft.com/en-us/windows/holographic/holograms_100) from the Holographic Academy. This one uses the HoloToolkit for Unity, and it also includes additional features like shooting balls around the space, and spatial mapping to use the real world in the virtual balls physics. The spatial mesh can be visually turned on and off, though it always remains active for collision detection.
+A sample HoloLens technical demo initially based on the [Holograms 100 tutorial](https://developer.microsoft.com/en-us/windows/holographic/holograms_100) from the Holographic Academy. This one uses the HoloToolkit for Unity, and it also includes additional features like shooting balls around the space, and spatial mapping to use the real world in the virtual balls physics. The spatial mesh can be visually turned on and off, though it always remains active for collision detection.
 
 The latest version was built in Unity 5.5.0b6 (Preview).
 
@@ -12,7 +12,7 @@ The latest version was built in Unity 5.5.0b6 (Preview).
 
 ## Implementation Notes
 * This sample uses Unity's high performance physics by enabling Continuous Dynamic Collision Detection on the sphere prefab's Rigidbody to prevent issues where the sphere would fall through the floor's spatial mesh.
-* Voice commands are still a work in progress in this demo.
+* I had a bug where the microphone capability was not set in package.appxmanifest in Visual Studio even though it was set in Unity, so I had to set it manually in the generated UWP project. I'm not sure if this is some bad setting in my project or a bug in the Unity Preview. You should nonetheless double-check this in your own generated UWP project before building & deploying.
 
 ## Follow Me
 * Twitter: [@ActiveNick](http://twitter.com/ActiveNick)
