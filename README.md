@@ -10,8 +10,6 @@ The latest version was built in Unity 5.5.0b6 (Preview).
 * **Shooting Mode**: Shoot white balls into the environment by air tapping in the space; watch them bouce around the real-world space thanks to spatial mapping on the HoloLens.
 * Show or hide the spatial mesh of your environment with the "display mesh" and "hide mesh" voice commands.
 
-![Screenshot](Screenshots/20161026_215751_HoloLens.jpg)
-
 ## Implementation Notes
 * This sample uses Unity's high performance physics by enabling Continuous Dynamic Collision Detection on the sphere prefab's Rigidbody to prevent issues where the sphere would fall through the floor's spatial mesh.
 * Voice commands are still a work in progress in this demo.
