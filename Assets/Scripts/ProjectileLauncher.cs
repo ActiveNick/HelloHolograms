@@ -16,8 +16,8 @@ public class ProjectileLauncher : MonoBehaviour
 
     public Rigidbody m_Sphere;                  // Prefab of the sphere
     public Transform m_Origin;                  // Where the shells are spawned
-    //public AudioSource m_ShootingAudio;         // Reference to the audio source used to play the shooting audio
-    //public AudioClip m_FireClip;                // Audio that plays when each shot is fired
+    public AudioSource m_ShootingAudio;         // Reference to the audio source used to play the shooting audio
+    public AudioClip m_FireClip;                // Audio that plays when each shot is fired
     public float m_CurrentLaunchForce = 10.0f;  // The force that will be given to the sphere when the tap gesture is triggered
 
     private void OnEnable()
@@ -53,8 +53,8 @@ public class ProjectileLauncher : MonoBehaviour
         ballInstance.velocity = m_CurrentLaunchForce * m_Origin.forward;
 
         // Change the clip to the firing clip and play it.
-        //m_ShootingAudio.clip = m_FireClip;
-        //m_ShootingAudio.Play();
+        m_ShootingAudio.clip = m_FireClip;
+        m_ShootingAudio.Play();
     }
 
     // Update is called once per frame
