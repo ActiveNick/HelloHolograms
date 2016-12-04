@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloHolograms.CSharp", "HelloHolograms.CSharp.csproj", "{7E500BAE-3057-DF75-F598-7B843496A2E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloHolograms", "HelloHolograms.csproj", "{C497747D-FF5D-71A2-61E7-B5877AF3561A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloHolograms.CSharp.Editor", "HelloHolograms.CSharp.Editor.csproj", "{286D9625-2643-D0A3-659D-3B9666E100DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloHolograms.Editor", "HelloHolograms.Editor.csproj", "{B3FF2910-F3C8-F607-BAE8-D8B3742F82FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E500BAE-3057-DF75-F598-7B843496A2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E500BAE-3057-DF75-F598-7B843496A2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E500BAE-3057-DF75-F598-7B843496A2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E500BAE-3057-DF75-F598-7B843496A2E5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{286D9625-2643-D0A3-659D-3B9666E100DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{286D9625-2643-D0A3-659D-3B9666E100DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{286D9625-2643-D0A3-659D-3B9666E100DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{286D9625-2643-D0A3-659D-3B9666E100DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C497747D-FF5D-71A2-61E7-B5877AF3561A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C497747D-FF5D-71A2-61E7-B5877AF3561A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C497747D-FF5D-71A2-61E7-B5877AF3561A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C497747D-FF5D-71A2-61E7-B5877AF3561A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3FF2910-F3C8-F607-BAE8-D8B3742F82FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3FF2910-F3C8-F607-BAE8-D8B3742F82FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3FF2910-F3C8-F607-BAE8-D8B3742F82FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3FF2910-F3C8-F607-BAE8-D8B3742F82FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
