@@ -610,12 +610,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57521fd30e896ef47bf9c9a236d01825, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotsPerSec: 2
+  shotsPerSec: 4
   m_Sphere: {fileID: 54871789473392386, guid: b7d3abde4d7c8644199fe5079db00fb8, type: 2}
   m_Origin: {fileID: 1586404592}
   m_ShootingAudio: {fileID: 1586404597}
   m_FireClip: {fileID: 8300000, guid: 4362e3477f47e9c4687b3f4dfd4d9430, type: 3}
-  m_CurrentLaunchForce: 10
+  m_CurrentLaunchForce: 8
 --- !u!4 &2137781664
 Transform:
   m_ObjectHideFlags: 0

@@ -1,7 +1,7 @@
 # HelloHolograms
 A sample HoloLens technical demo initially based on the [Holograms 100 tutorial](https://developer.microsoft.com/en-us/windows/holographic/holograms_100) from the Holographic Academy. This one uses the HoloToolkit for Unity, and it also includes additional features like shooting balls around the space, and spatial mapping to use the real world in the virtual balls physics. The spatial mesh can be visually turned on and off, though it always remains active for collision detection.
 
-**Unity version: 5.5.0f2 Preview**
+**Unity version: 5.5.0f3 Release**
 
 ## Features
 * Displays a cube 2 meters in front of the user.
